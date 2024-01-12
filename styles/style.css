@@ -26,7 +26,7 @@
   list-style: none;
 }
 
-.header__link {
+.link {
   letter-spacing: 0.18px;
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -90,9 +90,9 @@
 
 .cover__title {
   display: grid;
-  min-height: 355px;
+  /* min-height: 355px; */
   grid-template-columns: repeat(3,1fr);
-  grid-template-rows: 115px 100px 100px;
+  /* grid-template-rows: 115px 100px 100px; */
   padding:  165px 50px 135px 50px;
   row-gap: 20px;
 }
@@ -133,8 +133,8 @@
   display: flex;
   position: relative;
   justify-content: space-between;
-  padding-left: 77px;
-  padding-right: 51px;
+  padding-left: 78px;
+  padding-right: 50px;
   padding-bottom: 50px;
 }
 
@@ -181,7 +181,8 @@
   list-style: none;
   flex-wrap: wrap;
   padding-top: 26px;
-  column-gap: 25px;
+  /* column-gap: 25px; */
+  gap: 0 25px;
   z-index: 0;
   margin-bottom: 30px;
 }
